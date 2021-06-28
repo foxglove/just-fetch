@@ -19,7 +19,6 @@ target returns the native `window.fetch` implementation, and in node.js the
 ### Releasing
 
 ```sh
-tag=$(npm version minor)
-echo "$tag"
+tag=$(npm version minor) && echo "$tag"
 git push && git push origin "$tag"
 ```
