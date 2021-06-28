@@ -1,2 +1,2 @@
-const fetch = window.fetch;
+const fetch = globalThis.fetch;
 export default fetch;

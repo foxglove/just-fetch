@@ -13,7 +13,8 @@
   "main": "node.js",
   "browser": "browser.js",
   "files": [
-    "*.js"
+    "*.js",
+    "*.d.ts"
   ],
   "scripts": {
     "lint": "eslint --fix .",
