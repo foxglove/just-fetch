@@ -20,6 +20,9 @@
     "lint": "eslint --fix .",
     "lint:ci": "eslint ."
   },
+  "dependencies": {
+    "node-fetch": "^2"
+  },
   "devDependencies": {
     "@foxglove/eslint-plugin": "0.11.1",
     "eslint": "7.29.0",
