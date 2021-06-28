@@ -15,3 +15,11 @@ target returns the native `window.fetch` implementation, and in node.js the
 ### License
 
 @foxglove/just-fetch is released under the [MIT License](/LICENSE.md).
+
+### Releasing
+
+```sh
+tag=$(npm version minor)
+echo "$tag"
+git push && git push origin "$tag"
+```
