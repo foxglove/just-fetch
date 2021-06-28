@@ -1,16 +1,7 @@
 module.exports = {
-  extends: ["plugin:@foxglove/base", "plugin:@foxglove/jest"],
+  extends: ["plugin:@foxglove/base"],
   env: {
+    browser: true,
     node: true,
   },
-  ignorePatterns: ["dist"],
-  overrides: [
-    {
-      files: ["*.ts", "*.tsx"],
-      extends: ["plugin:@foxglove/typescript"],
-      parserOptions: {
-        project: "tsconfig.json",
-      },
-    },
-  ],
 };
