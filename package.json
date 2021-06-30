@@ -1,7 +1,7 @@
 {
   "name": "@foxglove/just-fetch",
   "private": false,
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Isomorphic ponyfill wrapping native browser fetch and node-fetch",
   "license": "MIT",
   "repository": "github:foxglove/template",
