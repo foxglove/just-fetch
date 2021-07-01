@@ -4,7 +4,10 @@
   "version": "1.1.0",
   "description": "Isomorphic ponyfill wrapping native browser fetch and node-fetch",
   "license": "MIT",
-  "repository": "github:foxglove/template",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/foxglove/just-fetch.git"
+  },
   "author": {
     "name": "Foxglove",
     "email": "contact@foxglove.dev",
