@@ -27,7 +27,7 @@
     "node-fetch": "^3.0.0-beta.9"
   },
   "devDependencies": {
-    "@foxglove/eslint-plugin": "0.11.1",
+    "@foxglove/eslint-plugin": "0.12.0",
     "eslint": "7.29.0",
     "eslint-config-prettier": "8.3.0",
     "eslint-plugin-import": "2.23.4",
