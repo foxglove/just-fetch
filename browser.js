@@ -1,1 +1,1 @@
-module.exports = globalThis.fetch;
+module.exports = globalThis.fetch.bind(globalThis);
