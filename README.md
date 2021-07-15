@@ -10,7 +10,7 @@ import fetch from "@foxglove/just-fetch";
 
 Usage is the same whether you are targeting browsers or node.js. The browser
 target returns the native `window.fetch` implementation, and in node.js the
-`node-fetch` library is returned.
+`@foxglove/node-fetch` library is returned.
 
 ## License
 

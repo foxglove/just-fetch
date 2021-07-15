@@ -1,2 +1,2 @@
-import fetch from "node-fetch";
+import fetch from "@foxglove/node-fetch";
 export default fetch;
