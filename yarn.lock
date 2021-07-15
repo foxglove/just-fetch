@@ -43,6 +43,14 @@
   resolved "https://registry.yarnpkg.com/@foxglove/eslint-plugin/-/eslint-plugin-0.12.0.tgz#9fc0657996d63d6fabba32fc8a32ed626110d0ae"
   integrity sha512-pBVoH0eZHYCURTbSYLO0DKxBo/zBn5P/t3HurU6njgt8caQ2SIPCWYleXwA2Cbr4+RepUB6+l53JR3m9bfa/Fg==
 
+"@foxglove/node-fetch@3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@foxglove/node-fetch/-/node-fetch-3.1.0.tgz#4e721a5552626fdbec885fee23035e834926d916"
+  integrity sha512-pfFDGz0lTI67MuX80LA0b6O/yv6if0rBYH5Bub/LCUAFvcvS7ubpluwsWCOhV0TyiC1wvbCX8/0j9BR1kBLiew==
+  dependencies:
+    data-uri-to-buffer "^3.0.1"
+    fetch-blob "^2.1.1"
+
 acorn-jsx@^5.3.1:
   version "5.3.2"
   resolved "https://registry.yarnpkg.com/acorn-jsx/-/acorn-jsx-5.3.2.tgz#7ed5bb55908b3b2f1bc55c6af1653bada7f07937"
@@ -210,7 +218,7 @@ cross-spawn@^7.0.2:
     shebang-command "^2.0.0"
     which "^2.0.1"
 
-data-uri-to-buffer@^3.0.0:
+data-uri-to-buffer@^3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/data-uri-to-buffer/-/data-uri-to-buffer-3.0.1.tgz#594b8973938c5bc2c33046535785341abc4f3636"
   integrity sha512-WboRycPNsVw3B3TL559F7kuBUM4d8CgMEvk6xEJlOp7OBPjt6G7z8WMWlD2rOFZLk6OYfFIUGsCOWzcQH9K2og==
@@ -504,10 +512,10 @@ fast-levenshtein@^2.0.6:
   resolved "https://registry.yarnpkg.com/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz#3d8a5c66883a16a30ca8643e851f19baa7797917"
   integrity sha1-PYpcZog6FqMMqGQ+hR8Zuqd5eRc=
 
-fetch-blob@3.0.1, fetch-blob@^1.0.6:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/fetch-blob/-/fetch-blob-3.0.1.tgz#c67d9b2d9e6d7202209b234ba14e13de451c5db9"
-  integrity sha512-uq8YWG2SVATaJtkP6YukvWHw++EpNsoT8vuBxFk57vcUXVQaS9jkdH6RKWVrbgO0YUNy3dPrXO+7HnSgTcJipg==
+fetch-blob@^2.1.1:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/fetch-blob/-/fetch-blob-2.1.2.tgz#a7805db1361bd44c1ef62bb57fb5fe8ea173ef3c"
+  integrity sha512-YKqtUDwqLyfyMnmbw8XD6Q8j9i/HggKtPEI+pZ1+8bvheBu78biSmNaXWusx1TauGqtUUGx/cBb1mKdq2rLYow==
 
 file-entry-cache@^6.0.1:
   version "6.0.1"
@@ -859,14 +867,6 @@ natural-compare@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
-
-node-fetch@^3.0.0-beta.9:
-  version "3.0.0-beta.6-exportfix"
-  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-3.0.0-beta.6-exportfix.tgz#fc39091dd71487c48a4d02ebcd3474b5c578fdea"
-  integrity sha512-jhW2arLPAddi7q04JxlQtApqMQF8GxlGZV+wj5/WuDz3hpDTnAU9haJ5Fi2a0N3b4e728O4EIVACNq9nDCzLYw==
-  dependencies:
-    data-uri-to-buffer "^3.0.0"
-    fetch-blob "^1.0.6"
 
 normalize-package-data@^2.3.2:
   version "2.5.0"
