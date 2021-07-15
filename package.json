@@ -24,7 +24,7 @@
     "lint:ci": "eslint ."
   },
   "dependencies": {
-    "node-fetch": "^3.0.0-beta.9"
+    "@foxglove/node-fetch": "3.1.0"
   },
   "devDependencies": {
     "@foxglove/eslint-plugin": "0.12.0",
