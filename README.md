@@ -2,6 +2,8 @@
 
 Isomorphic ponyfill wrapping native browser fetch and node-fetch.
 
+[![npm version](https://img.shields.io/npm/v/@foxglove/just-fetch.svg?style=flat)](https://www.npmjs.com/package/@foxglove/just-fetch)
+
 ### Usage
 
 ```ts
