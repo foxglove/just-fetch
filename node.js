@@ -1,1 +1,1 @@
-module.exports = require("@foxglove/node-fetch");
+module.exports = require("node-fetch");

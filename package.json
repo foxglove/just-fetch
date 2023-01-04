@@ -24,14 +24,14 @@
     "lint:ci": "eslint ."
   },
   "dependencies": {
-    "@foxglove/node-fetch": "3.1.0"
+    "node-fetch": "^3.3.0"
   },
   "devDependencies": {
-    "@foxglove/eslint-plugin": "0.12.0",
-    "eslint": "7.29.0",
-    "eslint-config-prettier": "8.3.0",
-    "eslint-plugin-import": "2.23.4",
-    "eslint-plugin-prettier": "3.4.0",
-    "prettier": "2.3.2"
+    "@foxglove/eslint-plugin": "0.20.0",
+    "eslint": "8.31.0",
+    "eslint-config-prettier": "8.6.0",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-prettier": "4.2.1",
+    "prettier": "2.8.1"
   }
 }
