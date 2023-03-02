@@ -16,7 +16,7 @@ target returns the native `window.fetch` implementation, and in node.js the
 
 ## License
 
-@foxglove/just-fetch is licensed under [MIT License](https://opensource.org/licenses/MIT).
+@foxglove/just-fetch is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
 ## Releasing
 
